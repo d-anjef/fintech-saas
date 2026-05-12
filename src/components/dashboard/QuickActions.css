@@ -1,0 +1,45 @@
+/* src/components/dashboard/QuickActions.css */
+.quick-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.quick-action-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 20px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.quick-action-btn:hover {
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-md);
+}
+
+.quick-action-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quick-action-btn span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .quick-actions {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

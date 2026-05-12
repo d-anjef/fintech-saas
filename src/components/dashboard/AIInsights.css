@@ -1,0 +1,103 @@
+/* src/components/dashboard/AIInsights.css */
+.ai-insights {
+  padding: 28px;
+  border-radius: var(--radius-lg);
+}
+
+.ai-insights-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.ai-insights-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sparkle-icon {
+  color: var(--accent-primary);
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: rotate(0deg); }
+  50% { opacity: 0.7; transform: rotate(180deg); }
+}
+
+.ai-insights-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ai-badge {
+  background: var(--gradient-primary);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.insights-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.insight-card {
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--glass-border);
+  transition: all var(--transition-base);
+  cursor: pointer;
+}
+
+.insight-card:hover {
+  background: var(--bg-tertiary);
+  box-shadow: var(--shadow-md);
+}
+
+.insight-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.insight-content {
+  flex: 1;
+}
+
+.insight-content h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.insight-content p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.insight-action {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.insight-action:hover {
+  transform: translateX(4px);
+}

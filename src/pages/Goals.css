@@ -1,0 +1,20 @@
+.goals-page { width: 100%; }
+.goals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
+.goal-card-large { padding: 28px; border-radius: var(--radius-lg); display: flex; flex-direction: column; text-align: center; }
+.goal-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.goal-icon { width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.goal-status { font-size: 12px; font-weight: 600; color: var(--accent-success); background: rgba(16, 185, 129, 0.1); padding: 4px 12px; border-radius: 20px; }
+.goal-card-large h3 { font-size: 20px; margin-bottom: 24px; }
+
+.goal-progress-circle { position: relative; width: 140px; height: 140px; margin: 0 auto 24px; }
+.goal-progress-circle svg { width: 100%; height: 100%; }
+.circle-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; }
+.circle-text .percentage { font-size: 24px; font-weight: 700; }
+.circle-text .label { font-size: 12px; color: var(--text-secondary); }
+
+.goal-financials { display: flex; justify-content: space-around; width: 100%; margin-bottom: 16px; padding: 16px 0; border-top: 1px solid var(--glass-border); border-bottom: 1px solid var(--glass-border); }
+.fin-item { display: flex; flex-direction: column; gap: 4px; }
+.fin-label { font-size: 12px; color: var(--text-secondary); }
+.fin-value { font-size: 18px; font-weight: 700; }
+
+.goal-meta { font-size: 13px; color: var(--text-tertiary); display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: auto; }
