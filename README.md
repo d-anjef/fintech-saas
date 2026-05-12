@@ -2,7 +2,6 @@
 
 <div align="center">
   
-  ![FinTrack Banner](https://via.placeholder.com/1200x400/6366f1/ffffff?text=FinTrack+-+Smart+Financial+Management)
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
@@ -11,7 +10,7 @@
   
   **A production-ready, enterprise-level personal finance tracking application built with React.js, Redux Toolkit, and modern web technologies.**
   
-  [Live Demo](https://your-app.vercel.app) · [Report Bug](https://github.com/yourusername/fintech-saas/issues) · [Request Feature](https://github.com/yourusername/fintech-saas/issues)
+  [Live Demo](https://fintech-saas-phi.vercel.app/) · [Report Bug](https://github.com/d-anjef/fintech-saas/issues) · [Request Feature](https://github.com/d-anjef/fintech-saas/issues)
   
 </div>
 
@@ -50,23 +49,8 @@
 ---
 
 ## 🎯 Demo
-
-### 🖥️ Screenshots
-
-<div align="center">
-  
-  | Dashboard | Analytics | Budget Planner |
-  |-----------|-----------|----------------|
-  | ![Dashboard](https://via.placeholder.com/400x300/1a1f35/ffffff?text=Dashboard) | ![Analytics](https://via.placeholder.com/400x300/1a1f35/ffffff?text=Analytics) | ![Budget](https://via.placeholder.com/400x300/1a1f35/ffffff?text=Budget) |
-  
-  | Transactions | Goals | Cards |
-  |--------------|-------|-------|
-  | ![Transactions](https://via.placeholder.com/400x300/1a1f35/ffffff?text=Transactions) | ![Goals](https://via.placeholder.com/400x300/1a1f35/ffffff?text=Goals) | ![Cards](https://via.placeholder.com/400x300/1a1f35/ffffff?text=Cards) |
-  
-</div>
-
 ### 🎥 Live Demo
-👉 **[View Live Application](https://your-app.vercel.app)**
+👉 **[View Live Application](https://fintech-saas-phi.vercel.app/)**
 
 ---
 
